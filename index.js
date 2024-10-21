@@ -64,7 +64,6 @@ function checkAnswer(currentLevel) {
     
     $("#level-title").text("Game Over, Restarting...");
 
-    // Рестартираме играта след 2 секунди
     setTimeout(function(){
       startOver();
     }, 2000);
@@ -78,5 +77,5 @@ function startOver(){
   
   setTimeout(function() {
     nextSequence();
-  }, 1000); // Започва играта отново след 1 секунда пауза
+  }, 1000);
 }
